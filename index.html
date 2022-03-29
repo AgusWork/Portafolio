@@ -655,13 +655,14 @@
 <script>
   function send_handle(){
 
+    let email= document.getElementById("email").value;
   
     let msg= document.getElementById("msg").value;
     let subject= document.getElementById("subject").value;
 
     let name= document.getElementById("name").value;
     
-    var win = window.open(`https://wa.me/+543517895201?text=Hola%20mi%20nombre%20es%20${name}%20te%20hablo%20por%20${subject}%20${msg}`, '_blank');
+    var win = window.open(`https://wa.me/+543517895201?text=Hola%20mi%20nombre%20es%20${name}%20y%20mi%20email%20es%20${email}%20te%20hablo%20por%20${subject}%20${msg}`, '_blank');
    // win.focus();
   }
 </script>
