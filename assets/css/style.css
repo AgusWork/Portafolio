@@ -656,7 +656,9 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
+.swiper-slide{
+  height: 800px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -957,7 +959,7 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[class="submit"] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
