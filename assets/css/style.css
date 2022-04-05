@@ -668,7 +668,7 @@ section {
   padding: 0;
 }
 .swiper-slide{
-  height: 800px;
+  height: 100%;
 }
 /*--------------------------------------------------------------
 # Services
